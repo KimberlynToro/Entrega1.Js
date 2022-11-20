@@ -21,10 +21,10 @@ function calcular(){
                 resultado = op1 - op2
                 break;
             case "*":
-                resultado = op1*op2
+                resultado = op1 * op2
                 break;
             case "/":
-                resultado = op1/op2
+                resultado = op1 / op2
                 break
         }
         pResultado.style = "color:black"
@@ -34,3 +34,12 @@ function calcular(){
         pResultado.innerText = "Calculo imposible"
     }
 }
+
+let resultado = '';
+
+while(resultado != "24") {
+    resultado = prompt("Para ingresar calcula  8 * 3");
+} 
+alert(Bienvenido)
+
+
